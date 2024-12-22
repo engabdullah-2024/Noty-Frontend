@@ -6,6 +6,8 @@ const Header = () => {
             <h1 className='text-3xl font-bold'>Welcome to Noty</h1>
            <Link to="/add-note"><h1>Add Note  +</h1></Link> 
            <Link to="/notes"><h1> Notes</h1></Link> 
+           <Link to="/register"><h1> Register Now</h1></Link> 
+           <Link to="/login"><h1> Login Now</h1></Link> 
         </header>
     );
 };
