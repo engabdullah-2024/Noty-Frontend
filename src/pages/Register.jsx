@@ -23,7 +23,7 @@ function Register() {
     };
 
     return (
-        <div className="ml-[21%]">
+        <div className="sm:ml-[21%]">
             <form className="flex flex-col justify-center w-[400px] h-[400px] bg-blue-800 p-10 mt-10 rounded-[50px]">
                 <input
                     value={name}

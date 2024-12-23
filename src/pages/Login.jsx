@@ -16,7 +16,7 @@ function Login() {
             if (response.data.success) {
                 alert("Login successfully");
                 localStorage.setItem("user", JSON.stringify(response.data.user));
-                navigate("/add-note");
+                navigate("/notes")
             } else {
                 alert("Incorrect email or password");
             }
@@ -24,7 +24,7 @@ function Login() {
     };
 
     return (
-        <div className="ml-[21%]">
+        <div className="sm:ml-[21%]">
             <form className="flex flex-col justify-center w-[400px] h-[400px] bg-blue-800 p-10 mt-10 rounded-[50px]">
                 <input
                     value={email}
